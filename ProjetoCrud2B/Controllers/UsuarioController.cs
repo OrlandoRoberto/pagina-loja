@@ -29,7 +29,7 @@ namespace ProjetoCrud2B.Controllers
         {
             var usuario = _usuarioRepositorio.ObterUsuario(email);
 
-            if(usuario != null && usuario.senha == senha)
+            if(usuario != null && usuario.Senha == senha)
             {
                 return RedirectToAction("ListarProduto", "Produto");
             }
