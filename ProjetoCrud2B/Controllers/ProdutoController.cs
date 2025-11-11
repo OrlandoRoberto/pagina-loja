@@ -4,7 +4,7 @@ namespace ProjetoCrud2B.Controllers
 {
     public class ProdutoController : Controller
     {
-        public IActionResult Index()
+        public IActionResult ListarProduto()
         {
             return View();
         }
